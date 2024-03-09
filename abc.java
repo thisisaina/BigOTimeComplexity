@@ -2,19 +2,21 @@
 public class abc {
 	// O(1)
 	public void play(int[] numbers) {
-		System.out.println(numbers[0]);
+		System.out.println(numbers[1]);
 	}
 
 	// O(2)
 	public void Play(int[] numbers) {
 		System.out.println(numbers[0]);
+        System.out.println(numbers[1]);
 		System.out.println(numbers[0]);
 	}
 
 	// O(n)
 	public void PLay(int[] numbers) {
-		for (int i = 0; i < numbers.length; i++) {
-			System.out.println(numbers[i]);
+		for (int j = 0; j < numbers.length; j++) {
+			System.out.println(numbers[j]);
+            System.out.println(numbers[j]);
 		}
 	}
 
@@ -30,7 +32,8 @@ public class abc {
 	public void PLAY(int[] numbers) {
 		System.out.println(numbers[0]);// O(1)
 		for (int number : numbers) {
-			System.out.println(number);// O(n)
+			System.out.println("number");// O(n)
+            System.out.println(number);
 		}
 		System.out.println(numbers[0]);// O(1)
 	}
